@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
     <title>YESTECH-DEVELOPERS</title>
   </head>
   <body>
     <h1>WELCOME TO YESETCH COMMUNITY HUB</h1>
+    <img width="500" height="100" src="icon.png" alt="">
+   
     <table  cellspacing="3">
       <tr>
         <ul>
@@ -20,6 +23,7 @@
             <a href="#" target="_blank" rel="noopener noreferrer">JOIN OUR DISCORD COMMUNITY
         </td>
          <td> <a href="mailto:yesetch@gmail">Email Us</a></td>
+       
         </ul>
       </tr>
     </table>
@@ -66,19 +70,32 @@
         <li>Upload recent picture and provide details</li>
     </ol>
     <hr>
-    <iframe width="150" height="150" title="Yestech" src="#" frameborder="0" allowfullscreen ></iframe>
+    <iframe width="550" height="150" title="Yestech" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen >Basics</iframe>
 <hr>
     <h4>CONTACT US</h4>
     <form>
-        Name: <br>
-        <input type="text"> <br>
-        Email: <br>
-        <input type="email"> <br> <br>
-        <button type="submit">Submit &#128516</button>
-    </form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" autofocus required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required> <br>
+        <label for="phone">Enter Your Contact:</label><br>
+        <input type="tel" id="phone" name="phone"
+        placeholder="123-45-678"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <label for="files">Please Upload your Details:</label><br>
+         <input type="file" id="files" name="files" multiple><br>
+        <label for="points">Enter Your Remarks:</label> <br>
+        <input type="number" id="points" name="points" > <br>
+        <label for="time">Enter Your Time Zone:</label><br>
+        <input type="time" id="time" name="time" ><br>
+        <button type="submit">Submit</button>
+      </form>
     <!-- <blockquote>YESETCH-HUB</blockquote>
     <address>#23 GoodingDrive,Lumely</address>
     <cite>albert_APS</cite>
     -->
+
+    
+    <footer style="margin: 5px; padding: 5px;">Devs &reg; &#128516 &#128516 &#128516</footer>
   </body>
 </html>
